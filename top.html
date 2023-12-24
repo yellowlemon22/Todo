@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>生きた石ころ</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-9/css/reset.css">
+<link rel="stylesheet" type="text/css" href="top.css">
+</head>
+<body>
+  <!-- ▼背景 -->
+  <div id="particles-js"></div>
+
+  <main>
+    <h1>生きた石ころ</h1>
+
+    <div class="cp_iptxt">
+      <form class="ef">
+      <input type="text" id="taskInput" placeholder="願い事">
+      <input type="submit" value="宣言" onclick="addTask(event)">
+      </form>
+      <ul id="taskList"></ul>
+    </div>
+  </main>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="top.js"></script>
+</body>
+</html>
